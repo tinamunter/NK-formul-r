@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NK formulär</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Martian+Mono:wght@100..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <form class="myForm" action="https://httpbin.org/anything" method="post">
+      <br /><br />
+      <h1>BLI NYCKELMEDLEM</h1>
+
+      <div class="inputName">
+        <label for="firstName">FÖRNAMN</label>
+        <input
+          id="firstName"
+          name="firstName"
+          type="text"
+          placeholder="Fyll i förnamn"
+          required
+          aria-required="true"
+        />
+      </div>
+
+      <div class="inputName">
+        <label for="lastName">EFTERNAMN</label>
+        <input
+          id="lastName"
+          name="lastName"
+          type="text"
+          placeholder="Fyll i efternamn"
+          required
+          aria-required="true"
+        />
+      </div>
+
+      <div class="inputName">
+        <label for="mobile">MOBILNUMMER</label>
+        <input
+          id="mobile"
+          name="mobile"
+          type="text"
+          placeholder="Fyll i mobilnummer"
+          required
+          aria-required="true"
+        />
+      </div>
+
+      <div class="inputName">
+        <label for="personalnumber">PERSONNUMMER</label>
+        <input
+          id="personalnumber"
+          name="personalnumber"
+          type="text"
+          placeholder="Fyll i personnummer"
+          required
+          aria-required="true"
+        />
+      </div>
+
+      <div class="inputName">
+        <label for="epost">E-POSTADRESS</label>
+        <input
+          id="epost"
+          name="epost"
+          type="text"
+          placeholder="Fyll i e-postadress"
+          required
+          aria-required="true"
+        />
+      </div>
+
+      <div class="inputName">
+        <label for="password">LÖSENORD</label>
+        <input
+          id="password"
+          name="password"
+          type="password"
+          placeholder="Fyll i lösenord"
+          required
+          aria-required="true"
+        />
+      </div>
+
+      <div class="inputName">
+        <label for="passwordRepeat">REPETERA LÖSENORD</label>
+        <input
+          id="password"
+          name="password"
+          type="password"
+          placeholder="Fyll i lösenord"
+          required
+          aria-required="true"
+        />
+      </div>
+
+      <div class="checkbox">
+        <input type="checkbox" id="checkbox1" name="visaLösenord" />
+        <label for="checkbox1">Visa lösenord</label>
+
+        <br /><br />
+
+        <label class="varuhus" for="varuhus">VARUHUSTILLHÖRIGHET</label>
+        <br />
+
+        <input type="radio" id="checkbox2" name="stockholm" />
+        <label class="checkbox2" for="checkbox2">Stockholm</label>
+        <input type="radio" id="checkbox2" name="stockholm" />
+        <label for="checkbox3">Göteborg</label>
+
+        <br /><br />
+
+        <label class="godkänna" for="godkänna">GODKÄNN MEDLEMSVILLKOR</label>
+
+    <br>
+          <input
+            type="checkbox"
+            id="checkbox1"
+            name="visaLösenord"
+            required
+            aria-required="true"
+          />
+          <label for="checkbox4">
+            Jag har tagit del av och godkänner medlemsvillkoren för medlemskap i
+            NK Nyckeln. Glöm inte att verifiera och bekräfta ditt medlemskap
+            inom 14 dagar.
+          </label>
+        </div>
+      </div>
+
+      <br /><br />
+
+      <button class="btn" type="submit">REGISTRERA</button>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: small;
+  background-color: lightgray;
+}
+
+label {
+  font-weight: 800;
+}
+
+.myForm {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  background-color: rgb(255, 255, 255);
+  width: 400px;
+  height: 930px;
+  border-radius: 0px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+input[type="text"],
+input[type="password"],
+textarea,
+select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #000000;
+  border-radius: 0px;
+}
+
+.inputName {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.names {
+  display: flex;
+  gap: 1px;
+}
+
+.btn {
+  align-self: center;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  width: 100%;
+  height: 40px;
+  border-style: none;
+}
+
+.checkbox label {
+  font-weight: 400;
+}
+
+label.varuhus {
+  font-weight: 800;
+}
+
+label.godkänna {
+  font-weight: 800;
+}
